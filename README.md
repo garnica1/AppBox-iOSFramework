@@ -33,11 +33,10 @@ Before you begin, please make sure that the following prerequisites are met:
 To start the AppBox SDK in your app, follow these steps:
 
 ### 1. Get App Update Key
-*  In order to use AppBox auto update service, you need to get app update key. For app update key, you need to upload your app with [AppBox](http://tryappbox.com) option [Keep same link url for all future build](https://iosappswirelessinstallation.codeplex.com/wikipage?title=KeepSameLink)
+*  In order to use AppBox auto update service, you need to get app update key. For app update key, you need to upload your app with [AppBox](http://tryappbox.com) option [Keep same link url for all future build](http://www.tryappbox.com/features/keepsamelink/)
 
-* When upload is complete, you'll get the a short url like this `https://goo.gl/jsr9JO`. Open this url in your macOS web browser. Here you will see a long url like this `http://i.tryappbox.com/?url=/s/49lsofdx9lsi61j/appinfo.json`.
-
-* In long url after `/s/` and before `/appinfo.json` is your app update key, i.e - `49lsofdx9lsi61j` in this case. Use your's.
+* When upload is complete, you'll get the a short url like this `http://appstorebeta.com/bMNpEVjudM`. Open this url in your macOS web browser. Here you will see a long url like this `http://i.tryappbox.com/?url=%2Fs%2F49lsofdx9lsi61j%2Fappinfo.json`.
+* In long url after `%2Fs%2F` and before `%2Fappinfo.json` is your app update key, i.e - `49lsofdx9lsi61j` in this case. Use your's.
 
 ### 2. Add import statements
 
